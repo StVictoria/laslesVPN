@@ -1,0 +1,38 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px
+}
+
+.Header-Logo {
+  width: 140px;
+}
+
+.Header-Nav {
+  display: center;
+  align-items: center;
+  
+  button {
+    color: #4F5665;
+  }
+}
+
+.Header-NavButton {
+  &:not(:last-child) {
+    margin-right: 36px;
+  }
+}
+
+.Header-Sign {
+  display: flex;
+  align-items: center;
+}
+
+.Header-SignUp {
+  color: #F53855;
+  margin-left: 20px;
+  padding: 12px 40px;
+  border: 2px solid #F53855;
+  border-radius: 23px;
+}
