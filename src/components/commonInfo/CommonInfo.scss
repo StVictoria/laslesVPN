@@ -1,0 +1,46 @@
+.CommonInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 68px 0;
+  margin-bottom: 60px;
+  box-shadow: 0 10px 20px #f1f1f1;
+  border-radius: 5px;
+}
+
+.CommonInfo-Info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 33%;
+  
+  &:not(:last-child) {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 1px;
+      height: 80px;
+      background-color: #EEEFF2;
+    }
+  }
+}
+
+.CommonInfo-Icon {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.CommonInfo-RestInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CommonInfo-Title {
+  color: #4F5665;
+  margin-top: 8px;
+}
