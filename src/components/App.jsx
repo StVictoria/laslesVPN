@@ -5,6 +5,7 @@ import StartSection from "./startSection/StartSection";
 import CommonInfo from './commonInfo/CommonInfo';
 import Features from './features/Features';
 import Plans from './plans/Plans';
+import MapSection from './mapSection/MapSection';
 
 const App = () => (
 	<div id="App" className="App">
@@ -13,6 +14,7 @@ const App = () => (
 		<CommonInfo />
 		<Features />
 		<Plans />
+		<MapSection />
 	</div>
 )
 

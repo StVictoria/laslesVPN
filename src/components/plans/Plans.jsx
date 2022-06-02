@@ -15,11 +15,11 @@ const Plans = () => {
        <CheckIcon width={20} />
         <p className="Plans-BenefitDescr">{benefit}</p>
     </li>
-  ))
+  ));
   
   const renderPlans = () => plans.map(plan => (
     <li className="Plans-Option" key={plan.id}>
-      <div className="Plans-OptionDescr">
+      <div className="Plans-OptionBody">
         <img src={BoxImage} className="Plans-BoxImage" alt="Box Plan" />
         <h3 className="Plans-OptionTitle">{plan.title}</h3>
         <ul className="Plans-Benefits">
@@ -37,7 +37,7 @@ const Plans = () => {
         <Button isOutlined text="Select" />
       </div>
     </li>
-  ))
+  ));
   
   return (
     <section className="Plans">
