@@ -2,10 +2,24 @@
   padding: 16px 72px;
   color: white;
   background-color: #F53838;
-  border-radius: 5px;
-  transition: 0.6s;
-  
+  border-radius: 10px;
+  transition: 0.4s;
+
   &:hover {
     box-shadow: 0 10px 20px #fdcccc;
+  }
+}
+
+.Button-Outlined {
+  color: #F53855;
+  margin-left: 20px;
+  padding: 12px 40px;
+  background-color: inherit;
+  border: 2px solid #F53855;
+  border-radius: 23px;
+  
+  &:hover {
+    color: white;
+    background-color: #F53855;
   }
 }

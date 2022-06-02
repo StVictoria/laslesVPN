@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import Logo from "../../assets/icons/LaslesVPNLogo.svg";
+import Button from '../common/Button';
 import "./Header.scss";
 
 const navSections = [
@@ -22,7 +23,7 @@ const Header = () => {
 		</nav>
 		<div className="Header-Sign">
 			<button className="Header-SignIn"><b>Sign in</b></button>
-			<button  className="Header-SignUp"><b>Sign up</b></button>
+			<Button isOutlined text="Sign up" />
 		</div>
 	</header>
 }

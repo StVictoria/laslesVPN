@@ -1,0 +1,36 @@
+.Features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.Features-Image, .Features-Info {
+  width: 45%
+}
+
+.Features-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Features-Title {
+  width: 60%;
+  font-size: 30px;
+  margin-bottom: 20px;
+  line-height: 45px;
+}
+
+.Features-Description {
+  margin-bottom: 30px;
+}
+
+.Features-Item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Features-ItemTitle {
+  margin-left: 10px;
+}
