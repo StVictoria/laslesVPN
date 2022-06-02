@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik Bold';
+  src: url('../assets/fonts/Rubik-Bold.ttf') format('truetype');
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -14,7 +24,6 @@
 body {
   font-family: 'Rubik';
   font-size: 16px;
-  line-height: 24px;
 }
 
 a {
@@ -23,9 +32,11 @@ a {
 }
 
 button {
+  font-family: 'Rubik';
   border: none;
   outline: none;
   background-color: inherit;
+  cursor: pointer;
 }
 
 ul,
@@ -37,8 +48,4 @@ li {
 
 p {
   margin: 0;
-}
-
-.AppStyles {
-  background-color: orange;
 }

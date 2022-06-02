@@ -1,0 +1,24 @@
+.StartSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.StartSection-Info {
+  width: 49%;
+}
+
+.StartSection-Title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.StartSection-Description {
+  color: #4F5665;
+  line-height: 30px;
+  margin-bottom: 46px;
+}
+
+.StartSection-Img {
+  width: 40%;
+}
