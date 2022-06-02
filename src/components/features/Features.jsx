@@ -11,10 +11,10 @@ const features = [
 
 const Features = () => {
   const renderFeatures = () => features.map(feature => (
-    <div className="Features-Item" key={feature.id}>
+    <li className="Features-Item" key={feature.id}>
       <CheckIcon width={20} />
       <p className="Features-ItemTitle">{feature.title}</p>
-    </div>
+    </li>
   ))
   
   return (
@@ -23,9 +23,9 @@ const Features = () => {
       <FeaturesImage />
     </div>
     <section className="Features-Info">
-      <h2 className="Features-Title">We Provide Many Features You Can Use</h2>
+      <h2>We Provide Many Features You Can Use</h2>
       <p className="Features-Description">You can explore the features that we provide with fun and have their own functions each feature.</p>
-      {renderFeatures()}
+      <ul>{renderFeatures()}</ul>
     </section>
   </section>
   )

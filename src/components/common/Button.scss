@@ -3,6 +3,7 @@
   color: white;
   background-color: #F53838;
   border-radius: 10px;
+  font-weight: 700;
   transition: 0.4s;
 
   &:hover {
@@ -12,7 +13,7 @@
 
 .Button-Outlined {
   color: #F53855;
-  margin-left: 20px;
+  font-weight: 700;
   padding: 12px 40px;
   background-color: inherit;
   border: 2px solid #F53855;
@@ -21,5 +22,6 @@
   &:hover {
     color: white;
     background-color: #F53855;
+    box-shadow: 0 10px 20px #fdcccc;
   }
 }

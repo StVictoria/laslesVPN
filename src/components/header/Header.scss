@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .Header-Logo {
@@ -28,4 +28,8 @@
 .Header-Sign {
   display: flex;
   align-items: center;
+}
+
+.Header-SignIn {
+  margin-right: 20px;
 }
