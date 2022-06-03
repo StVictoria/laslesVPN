@@ -6,6 +6,7 @@ import CommonInfo from './commonInfo/CommonInfo';
 import Features from './features/Features';
 import Plans from './plans/Plans';
 import MapSection from './mapSection/MapSection';
+import Companies from './companies/Companies';
 
 const App = () => (
 	<div id="App" className="App">
@@ -15,6 +16,7 @@ const App = () => (
 		<Features />
 		<Plans />
 		<MapSection />
+		<Companies />
 	</div>
 )
 

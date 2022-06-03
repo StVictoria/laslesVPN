@@ -1,4 +1,4 @@
-import StartSectionImage from "../../assets/images/image_1.svg";
+import StartSectionImg from "../../assets/images/image_1.svg";
 import Button from "../common/Button";
 import "./StartSection.scss";
 
@@ -10,7 +10,7 @@ const StartSection = () => (
       <Button text="Get Started" />
     </section>
     <div className="StartSection-Img">
-      <StartSectionImage />
+      <StartSectionImg />
     </div>
   </section>
 );

@@ -1,5 +1,5 @@
 import "./Plans.scss";
-import BoxImage from "../../assets/images/box.png";
+import BoxImg from "../../assets/images/box.png";
 import CheckIcon from "../../assets/icons/check.svg";
 import Button from "../common/Button";
 
@@ -20,7 +20,7 @@ const Plans = () => {
   const renderPlans = () => plans.map(plan => (
     <li className="Plans-Option" key={plan.id}>
       <div className="Plans-OptionBody">
-        <img src={BoxImage} className="Plans-BoxImage" alt="Box Plan" />
+        <img src={BoxImg} className="Plans-BoxImg" alt="Box Plan" />
         <h3 className="Plans-OptionTitle">{plan.title}</h3>
         <ul className="Plans-Benefits">
          {renderBenefits(plan.benefits)}

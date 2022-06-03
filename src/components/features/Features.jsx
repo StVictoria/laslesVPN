@@ -1,5 +1,5 @@
 import "./Features.scss";
-import FeaturesImage from "../../assets/images/image_2.svg";
+import FeaturesImg from "../../assets/images/image_2.svg";
 import CheckIcon from "../../assets/icons/check-filled.svg";
 
 const features = [
@@ -19,8 +19,8 @@ const Features = () => {
   
   return (
   <section className="Features">
-    <div className="Features-Image">
-      <FeaturesImage />
+    <div className="Features-Img">
+      <FeaturesImg />
     </div>
     <section className="Features-Info">
       <h2>We Provide Many Features You Can Use</h2>
