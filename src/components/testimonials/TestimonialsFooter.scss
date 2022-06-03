@@ -1,0 +1,72 @@
+.TestimonialsFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.TestimonialsFooter-Dots {
+  position: relative;
+  display: flex;
+}
+
+.TestimonialsFooter-Dot {
+  width: 14px;
+  height: 14px;
+  background-color: #DDE0E4;
+  border-radius: 50%;
+
+  &:not(:last-child) {
+    margin-right: 14px;
+  }
+}
+
+.TestimonialsFooter-Slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 14px;
+  background-color: #F53838;
+  border-radius: 14px;
+}
+
+.TestimonialsFooter-Buttons {
+  display: flex;
+}
+
+.TestimonialsFooter-ArrowButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #F53838;
+  border-radius: 50%;
+  transition: 0.4s;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &:hover {
+    background-color: #F53838;
+
+    .TestimonialsFooter-ArrowLeft,
+    .TestimonialsFooter-ArrowRight {
+      background: url("../../assets//icons/arrow-white.png") center center / contain no-repeat;
+    }
+  }
+}
+
+.TestimonialsFooter-ArrowLeft,
+.TestimonialsFooter-ArrowRight {
+  width: 28px;
+  height: 28px;
+  background: url("../../assets//icons/arrow-red.png") center center / contain no-repeat;
+  transition: 0.4s;
+}
+
+.TestimonialsFooter-ArrowRight {
+  transform: rotate(180deg);
+}

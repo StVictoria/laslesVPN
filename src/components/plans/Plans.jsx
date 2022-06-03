@@ -5,8 +5,8 @@ import Button from "../common/Button";
 
 const plans = [
   {  id: 1, title: "Free Plan", price: "Free", benefits: ["Unlimited Bandwitch", "Encrypted Connection", "No Traffic Logs", "Works on All Devices"]},
-  {  id: 1, title: "Standard Plan", price: "9", benefits: ["Unlimited Bandwitch", "Encrypted Connection", "No Traffic Logs", "Works on All Devices", "Connect Anyware"]},
-  {  id: 1, title: "Premium Plan", price: "12", benefits: ["Unlimited Bandwitch", "Encrypted Connection", "No Traffic Logs", "Works on All Devices", "Connect Anyware", "Get New Features"]},
+  {  id: 2, title: "Standard Plan", price: "9", benefits: ["Unlimited Bandwitch", "Encrypted Connection", "No Traffic Logs", "Works on All Devices", "Connect Anyware"]},
+  {  id: 3, title: "Premium Plan", price: "12", benefits: ["Unlimited Bandwitch", "Encrypted Connection", "No Traffic Logs", "Works on All Devices", "Connect Anyware", "Get New Features"]},
 ];
 
 const Plans = () => {

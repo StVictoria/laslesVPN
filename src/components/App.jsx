@@ -7,7 +7,7 @@ import Features from './features/Features';
 import Plans from './plans/Plans';
 import MapSection from './mapSection/MapSection';
 import Companies from './companies/Companies';
-import Testimonials from './testimonials/Testimonials';
+import TestimonialsSection from './testimonials/TestimonialsSection';
 
 const App = () => (
 	<div id="App" className="App">
@@ -18,7 +18,7 @@ const App = () => (
 		<Plans />
 		<MapSection />
 		<Companies />
-		<Testimonials />
+		<TestimonialsSection />
 	</div>
 )
 
