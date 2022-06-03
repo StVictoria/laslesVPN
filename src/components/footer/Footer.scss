@@ -42,3 +42,21 @@
 .Footer-Copyrights {
   color: #AFB5C0;
 }
+
+.Footer-LinksSections {
+  display: flex;
+}
+
+.Footer-LinksSection {
+  &:not(:last-child) {
+    margin-right: 60px;
+  }
+
+  &:first-child {
+    margin-right: 120px;
+  }
+}
+
+.Footer-Link {
+  margin-bottom: 20px;
+}
