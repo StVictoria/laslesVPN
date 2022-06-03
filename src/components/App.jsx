@@ -8,6 +8,7 @@ import Plans from './plans/Plans';
 import MapSection from './mapSection/MapSection';
 import Companies from './companies/Companies';
 import TestimonialsSection from './testimonials/TestimonialsSection';
+import Subscribe from './subscribe/Subscribe';
 
 const App = () => (
 	<div id="App" className="App">
@@ -19,6 +20,7 @@ const App = () => (
 		<MapSection />
 		<Companies />
 		<TestimonialsSection />
+		<Subscribe />
 	</div>
 )
 

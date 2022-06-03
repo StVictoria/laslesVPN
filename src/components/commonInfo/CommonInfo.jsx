@@ -25,7 +25,7 @@ const CommonInfo = () => {
   ));
   
   return (
-    <section className="CommonInfo">
+    <section className="CommonInfo Card">
     {renderInfo()}
   </section>
   )
