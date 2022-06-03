@@ -13,13 +13,13 @@
 .Header-Nav {
   display: center;
   align-items: center;
-  
+
   button {
-    color: #4F5665;
+    color: #F53838;
   }
 }
 
-.Header-NavButton {
+.Header-NavLink {
   &:not(:last-child) {
     margin-right: 36px;
   }

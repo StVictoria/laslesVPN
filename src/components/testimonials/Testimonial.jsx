@@ -16,7 +16,7 @@ const Testimonial = ({ info }) => (
         <StarIcon width={14} />
       </div>
     </div>
-    <article className="TestimonialsList-Feedback">{info.feedback}</article>
+    <article className="Testimonial-Feedback">{info.feedback}</article>
   </li>
 );
 

@@ -12,7 +12,7 @@ const navSections = [
 ];
 
 const Header = () => {
-	const renderNavSections = () => navSections.map(section => <button key={section.id} className="Header-NavButton">{section.name}</button>)
+	const renderNavSections = () => navSections.map(section => <a key={section.id} href="#" className="Header-NavLink">{section.name}</a>)
 	
 	return <header className="Header">
 		<div className="Header-Logo">

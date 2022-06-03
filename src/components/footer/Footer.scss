@@ -1,7 +1,7 @@
 .Footer {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .Footer-LaslesDescr {
@@ -28,9 +28,10 @@
   width: 30px;
   height: 30px;
   border-radius: 50px;
+  transition: 0.4s;
 
   &:hover {
-    box-shadow: 0 4px 10px #f1f1f1;
+    box-shadow: 0 4px 10px #b9b9b9;
   }
 }
 
@@ -40,6 +41,7 @@
 }
 
 .Footer-Copyrights {
+  font-size: 14px;
   color: #AFB5C0;
 }
 

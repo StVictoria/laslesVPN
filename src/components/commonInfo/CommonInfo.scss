@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   width: 33%;
-  
+
   &:not(:last-child) {
     &::after {
       content: "";
@@ -37,6 +37,6 @@
 }
 
 .CommonInfo-Title {
-  color: #4F5665;
+  color: #F53838;
   margin-top: 8px;
 }

@@ -27,6 +27,11 @@
   padding: 64px 86px;
   border: 1px solid #DDDDDD;
   border-radius: 10px;
+  transition: 0.4s;
+
+  &:hover {
+    border: 1px solid #F53838;;
+  }
 }
 
 .Plans-OptionBody {
@@ -50,7 +55,7 @@
 .Plans-Benefit {
   display: flex;
   align-items: center;
-  
+
   &:not(:last-child) {
     margin-bottom: 10px;
   }
