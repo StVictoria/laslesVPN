@@ -1,0 +1,44 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.Footer-LaslesDescr {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.Footer-ContactButtons {
+  display: flex;
+  margin-bottom: 40px;
+
+  li {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+}
+
+.Footer-ContactButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+
+  &:hover {
+    box-shadow: 0 4px 10px #f1f1f1;
+  }
+}
+
+.Footer-ContactImg {
+  width: 60px;
+  height: 64px;
+}
+
+.Footer-Copyrights {
+  color: #AFB5C0;
+}

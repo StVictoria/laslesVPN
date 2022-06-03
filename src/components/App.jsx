@@ -9,6 +9,7 @@ import MapSection from './mapSection/MapSection';
 import Companies from './companies/Companies';
 import TestimonialsSection from './testimonials/TestimonialsSection';
 import Subscribe from './subscribe/Subscribe';
+import Footer from './footer/Footer';
 
 const App = () => (
 	<div id="App" className="App">
@@ -21,6 +22,7 @@ const App = () => (
 		<Companies />
 		<TestimonialsSection />
 		<Subscribe />
+		<Footer />
 	</div>
 )
 
