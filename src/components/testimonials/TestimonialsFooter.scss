@@ -6,7 +6,6 @@
 }
 
 .TestimonialsFooter-Dots {
-  position: relative;
   display: flex;
 }
 
@@ -14,21 +13,17 @@
   width: 14px;
   height: 14px;
   background-color: #DDE0E4;
-  border-radius: 50%;
+  border-radius: 14px;
+  transition: 0.4s;
 
   &:not(:last-child) {
     margin-right: 14px;
   }
-}
-
-.TestimonialsFooter-Slider {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 42px;
-  height: 14px;
-  background-color: #F53838;
-  border-radius: 14px;
+  
+  &_active {
+    width: 42px;
+    background-color: #F53838;
+  }
 }
 
 .TestimonialsFooter-Buttons {
@@ -42,7 +37,7 @@
   width: 50px;
   height: 50px;
   border: 2px solid #F53838;
-  border-radius: 50%;
+  border-radius: 50px;
   transition: 0.4s;
 
   &:not(:last-child) {
