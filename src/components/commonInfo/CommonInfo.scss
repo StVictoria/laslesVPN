@@ -40,3 +40,32 @@
   color: #F53838;
   margin-top: 8px;
 }
+
+@media (max-width: 1200px) {
+  .CommonInfo-Icon {
+    width: 60px;
+    margin-right: 40px;
+  }
+  
+  .CommonInfo-Title {
+    font-size: 20px;
+  }
+  
+  .CommonInfo-Info {
+    justify-content: center;
+    width: 33%;
+  
+    &:not(:last-child) {
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 1px;
+        height: 80px;
+        background-color: #EEEFF2;
+      }
+    }
+  }
+}

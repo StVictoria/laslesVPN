@@ -30,7 +30,8 @@
   transition: 0.4s;
 
   &:hover {
-    border: 1px solid #F53838;;
+    border: 1px solid #F53838;
+    ;
   }
 }
 
@@ -77,4 +78,24 @@
   font-size: 20px;
   margin-bottom: 20px;
   margin-top: 40px;
+}
+
+@media (max-width: 1300px) {
+  .Plans-Description {
+    width: 80%;
+  }
+  
+  .Plans-Options {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Plans-Option {
+    width: 60%;
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
 }

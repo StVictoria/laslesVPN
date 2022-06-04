@@ -76,3 +76,9 @@ p {
   box-shadow: 0 10px 20px #f1f1f1;
   border-radius: 10px;
 }
+
+@media (max-width: 1200px) {
+  button {
+    font-size: 20px;
+  }
+}

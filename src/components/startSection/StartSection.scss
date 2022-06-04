@@ -13,10 +13,43 @@
   margin-bottom: 20px;
 }
 
-.StartSection-Description {
-  margin-bottom: 46px;
-}
-
 .StartSection-Img {
   width: 40%;
+}
+
+@media (max-width: 1200px) {
+  .StartSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .StartSection-Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .StartSection-Img {
+    width: 80%;
+  }
+
+  .StartSection-Title,
+  .StartSection-Descr {
+    text-align: center;
+  }
+
+  .StartSection-Title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    line-height: 100px;
+  }
+
+  .StartSection-Descr {
+    font-size: 20px;
+    width: 80%;
+    line-height: 50px;
+    margin-bottom: 60px;
+  }
 }

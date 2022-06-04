@@ -19,3 +19,10 @@
 .MapSection-MapImg {
   width: 90%;
 }
+
+@media (max-width: 1200px) {
+  .MapSection-Title,
+  .MapSection-Description {
+    width: 80%;
+  }
+}

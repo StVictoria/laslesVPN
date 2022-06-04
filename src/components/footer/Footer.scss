@@ -50,6 +50,7 @@
 }
 
 .Footer-LinksSection {
+  width: 100px;
   &:not(:last-child) {
     margin-right: 60px;
   }
@@ -61,4 +62,17 @@
 
 .Footer-Link {
   margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .Footer-LaslesDescr {
+    width: 70%;
+    line-height: 20px;
+  }
+  
+  .Footer-LinksSection {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 }

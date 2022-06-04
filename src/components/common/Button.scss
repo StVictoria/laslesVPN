@@ -26,3 +26,15 @@
     box-shadow: 0 10px 20px #fdcccc;
   }
 }
+
+@media (max-width: 1200px) {
+  .Button {
+    padding: 10px 66px;
+    font-size: 16px;
+  }
+  
+  .Button-Outlined {
+    padding: 8px 30px;
+    font-size: 16px;
+  }
+}
