@@ -1,11 +1,11 @@
+import ContactsSection from "./ContactsSection";
 import "./Footer.scss";
-import LeftSection from "./LeftSection";
-import RightSection from "./RightSection";
+import LinksSection from "./LinksSection";
 
 const Footer = () => (
   <footer className="Footer">
-    <LeftSection />
-    <RightSection />
+    <ContactsSection />
+    <LinksSection />
   </footer>
 );
 

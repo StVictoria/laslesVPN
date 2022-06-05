@@ -10,7 +10,7 @@ const buttons = [
   { id: 3, src: InstagramIcon },
 ];
 
-const LeftSection = () => {
+const ContactsSection = () => {
   const renderContactButtons = () => buttons.map(button => (
     <li key={button.id}>
       <button className="Footer-ContactButton">
@@ -20,7 +20,7 @@ const LeftSection = () => {
   ));
 
   return (
-    <section>
+    <section className="Footer-ContactsSection">
       <Logo width={140} height={40} />
       <p className="Footer-LaslesDescr"><b>LaslesVPN</b> is a private virtual network that has unique features and has high security.</p>
       <ul className="Footer-ContactButtons">
@@ -33,4 +33,4 @@ const LeftSection = () => {
   );
 };
 
-export default LeftSection;
+export default ContactsSection;

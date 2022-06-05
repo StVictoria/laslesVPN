@@ -3,7 +3,7 @@ import "./Subscribe.scss";
 
 const Subscribe = () => (
   <section className="Subscribe Card">
-    <div>
+    <div className="Subscribe-Description">
       <h2>Subscribe Now for Get Special Features!</h2>
       <p>Let's subscribe with us and find the fun.</p>
     </div>

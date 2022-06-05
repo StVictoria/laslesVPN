@@ -84,7 +84,7 @@
   .Plans-Description {
     width: 80%;
   }
-  
+
   .Plans-Options {
     flex-direction: column;
     justify-content: center;
@@ -97,5 +97,11 @@
     &:not(:last-child) {
       margin-bottom: 40px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .Plans-Option {
+    padding: 20px;
   }
 }

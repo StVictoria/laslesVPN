@@ -6,9 +6,9 @@ const linkSections = [
   { id: 3, title: "Earn Money", links: ["Affiliate", "Become Partner"] },
 ];
 
-const RightSection = () => {
+const LinksSection = () => {
   const renderLinkSections = () => linkSections.map(section => (
-    <div key={section.id} className="Footer-LinksSection">
+    <div key={section.id} className="Footer-LinksColumn">
       <h4>{section.title}</h4>
       <ul key={section.id}>
         {section.links.map(link => <li key={link} className="Footer-Link"><a href="#">{link}</a></li>)}
@@ -17,12 +17,10 @@ const RightSection = () => {
   ));
 
   return (
-    <section>
-      <div className="Footer-LinksSections">
-        {renderLinkSections()}
-      </div>
+    <section className="Footer-LinksSection">
+      {renderLinkSections()}
     </section>
   );
 };
 
-export default RightSection;
+export default LinksSection;

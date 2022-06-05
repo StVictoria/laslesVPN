@@ -28,3 +28,19 @@
 .Features-ItemTitle {
   margin-left: 10px;
 }
+
+@media (max-width: 768px) {
+  .Features {
+    flex-direction: column-reverse;
+  }
+
+  .Features-Img,
+  .Features-Info {
+    width: 100%
+  }
+  
+  .Features-Info {
+    text-align: center;
+    align-items: center;
+  }
+}
