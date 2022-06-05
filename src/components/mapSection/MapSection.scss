@@ -26,3 +26,13 @@
     width: 80%;
   }
 }
+
+@media (max-width: 490px) {
+  .MapSection {
+    margin-bottom: 20px;
+  }
+  
+  .MapSection-Title {
+    width: 100%;
+  }
+}

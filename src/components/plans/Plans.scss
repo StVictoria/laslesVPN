@@ -105,3 +105,13 @@
     padding: 20px;
   }
 }
+
+@media (max-width: 490px) {
+  .Plans {
+    margin-bottom: 30px;
+  }
+
+  .Plans-Option {
+    width: 100%;
+  }
+}

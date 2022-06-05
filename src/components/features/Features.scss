@@ -44,3 +44,15 @@
     align-items: center;
   }
 }
+
+@media (max-width: 490px) {
+  .Features {
+    margin-bottom: 30px;
+  }
+  
+  .Features-Info {
+    h2 {
+      width: 100%;
+    }
+  }
+}

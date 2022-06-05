@@ -96,3 +96,13 @@
     }
   }
 }
+
+@media (max-width: 490px) {
+  .CommonInfo {
+    margin-bottom: 30px;
+  }
+  
+  .CommonInfo-Title {
+    font-size: 16px;
+  }
+}

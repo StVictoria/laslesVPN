@@ -1,6 +1,6 @@
 .Companies {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 100px;
@@ -8,4 +8,16 @@
 
 .Companies-Img {
   width: 13%;
+}
+
+@media (max-width: 490px) {
+  .Companies {
+    margin-bottom: 30px;
+  }
+  
+  .Companies-Img {
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
 }
