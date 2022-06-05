@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import "./Button.scss";
 
-const Button = ({ isOutlined, text }) => (
-  <button className={clsx("Button", { "Button-Outlined": isOutlined })}>
+const Button = ({ isOutlined, text, onClick }) => (
+  <button className={clsx("Button", { "Button-Outlined": isOutlined })} onClick={onClick}>
     {text}
   </button>
 );

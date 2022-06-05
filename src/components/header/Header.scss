@@ -34,3 +34,19 @@
   margin-right: 20px;
   font-size: 16px;
 }
+
+@media (max-width: 992px) {
+  .Header {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Header-Nav, .Header-Sign {
+    display: none;
+  }
+
+  .Header-Sign {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,77 @@
+.Menu {
+  display: none;
+}
+
+.Menu-Nav {
+  display: none;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 80px 0 40px;
+  z-index: 100;
+
+  &_opened {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+}
+
+.Menu-Button {
+  display: none;
+}
+
+.Menu-List {
+  text-align: center;
+}
+
+.Menu-Item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.Menu-Sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Menu-SignIn {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.Menu-CloseButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.Menu-CloseIcon {
+  width: 20px;
+}
+
+@media (max-width: 992px) {
+  .Menu {
+    display: block;
+  }
+
+  .Menu-Nav {
+    display: none;
+    
+    &_opened {
+      display: block;
+    }
+  }
+
+  .Menu-Button {
+    display: block;
+  }
+}
